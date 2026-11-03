@@ -1,0 +1,82 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 4056 >>
+stream
+1 1 1 rg 0 0 595 842 re f
+0.07 0.16 0.26 rg 0 814 595 28 re f
+0.07 0.16 0.26 rg BT /F2 23 Tf 1 0 0 1 46 779 Tm (ELDRICH JENLORD F. MOJICA) Tj ET
+0.27 0.34 0.41 rg BT /F1 10 Tf 1 0 0 1 47 760 Tm (Information Technology Student  |  IT Internship Applicant) Tj ET
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 47 742 Tm (Rosario, Cavite   |   0967 299 5549   |   fmojicaeldrich@gmail.com) Tj ET
+0.07 0.36 0.54 rg BT /F1 9 Tf 1 0 0 1 47 727 Tm (github.com/mojicaeldrichjenlord-cell) Tj ET
+0.83 0.87 0.92 rg 45 717 505 0.8 re f
+0.07 0.36 0.54 rg BT /F2 10.1 Tf 1 0 0 1 47 697 Tm (PROFESSIONAL SUMMARY) Tj ET
+0.83 0.87 0.92 rg 45 685 505 0.8 re f
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 47 669 Tm (Fourth-year BS Information Technology student seeking an internship to apply skills in web) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 47 656 Tm (development, database management, software testing, and technical troubleshooting.) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 47 643 Tm (Hands-on academic experience with a multi-role resort system and a Unity 2D game.) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 47 630 Tm (Eager to contribute to a professional IT team and continue learning.) Tj ET
+0.07 0.36 0.54 rg BT /F2 10.1 Tf 1 0 0 1 47 602 Tm (EDUCATION) Tj ET
+0.83 0.87 0.92 rg 45 590 505 0.8 re f
+0.13 0.17 0.24 rg BT /F2 10 Tf 1 0 0 1 47 575 Tm (Bachelor of Science in Information Technology) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.2 Tf 1 0 0 1 47 559 Tm (STI College Rosario  |  2023 - Present  |  Fourth-year student) Tj ET
+0.07 0.36 0.54 rg BT /F2 10.1 Tf 1 0 0 1 47 529 Tm (TECHNICAL SKILLS) Tj ET
+0.83 0.87 0.92 rg 45 517 505 0.8 re f
+0.13 0.17 0.24 rg BT /F2 9.1 Tf 1 0 0 1 47 503 Tm (Programming & Web:) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 152 503 Tm (HTML, CSS, JavaScript, Node.js, Express.js) Tj ET
+0.13 0.17 0.24 rg BT /F2 9.1 Tf 1 0 0 1 47 488 Tm (Databases & Tools:) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 152 488 Tm (MySQL, MySQL Workbench, Git, GitHub, VS Code) Tj ET
+0.13 0.17 0.24 rg BT /F2 9.1 Tf 1 0 0 1 47 473 Tm (Development & Testing:) Tj ET
+0.13 0.17 0.24 rg BT /F1 9.1 Tf 1 0 0 1 167 473 Tm (REST APIs, debugging, testing, responsive design, Unity 2D) Tj ET
+0.07 0.36 0.54 rg BT /F2 10.1 Tf 1 0 0 1 47 445 Tm (SELECTED ACADEMIC PROJECTS) Tj ET
+0.83 0.87 0.92 rg 45 433 505 0.8 re f
+0.13 0.17 0.24 rg BT /F2 10.2 Tf 1 0 0 1 47 419 Tm (Smart Resort Booking System  |  Full-Stack Capstone) Tj ET
+0.07 0.36 0.54 rg 51 402 3.1 3.1 re f
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 399 Tm (Collaborated on a resort reservation system with customer/staff roles, booking workflows,) Tj ET
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 386 Tm (payment proof uploads, and administrative reporting.) Tj ET
+0.07 0.36 0.54 rg 51 373 3.1 3.1 re f
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 370 Tm (Used Node.js, Express.js, and MySQL for backend workflows and database handling.) Tj ET
+0.07 0.36 0.54 rg 51 356 3.1 3.1 re f
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 353 Tm (Tested and debugged customer, front desk, manager, housekeeping, and admin features.) Tj ET
+0.13 0.17 0.24 rg BT /F2 10.2 Tf 1 0 0 1 47 325 Tm (Bakunawa: The Seven Moons  |  Unity 2D Game Development) Tj ET
+0.07 0.36 0.54 rg 51 308 3.1 3.1 re f
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 305 Tm (Contributed to gameplay, interface design, debugging, and iterative testing.) Tj ET
+0.07 0.36 0.54 rg 51 291 3.1 3.1 re f
+0.13 0.17 0.24 rg BT /F1 9 Tf 1 0 0 1 62 288 Tm (Used Git and GitHub for version control and collaborative development.) Tj ET
+0.07 0.36 0.54 rg BT /F2 10.1 Tf 1 0 0 1 47 260 Tm (ADDITIONAL STRENGTHS) Tj ET
+0.83 0.87 0.92 rg 45 248 505 0.8 re f
+0.13 0.17 0.24 rg BT /F1 9.3 Tf 1 0 0 1 47 233 Tm (Problem-solving   |   Collaboration   |   Attention to detail   |   Willingness to learn) Tj ET
+0.83 0.87 0.92 rg 45 110 505 0.8 re f
+0.07 0.36 0.54 rg BT /F1 9 Tf 1 0 0 1 47 91 Tm (IT Internship Portfolio  |  eldrich-portfolio.vercel.app) Tj ET
+0.46 0.5 0.56 rg BT /F1 8.2 Tf 1 0 0 1 47 77 Tm (Academic project work; no formal work experience claimed.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000257 00000 n 
+0000000327 00000 n 
+0000000402 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+4509
+%%EOF
