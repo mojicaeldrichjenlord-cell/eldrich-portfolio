@@ -17,3 +17,9 @@
 .project-links a{display:inline-flex;align-items:center;justify-content:center;border:1px solid #6087b855;border-radius:7px;padding:10px 14px;min-height:40px}
 .project-links a:first-child{background:var(--accent);color:#07111d;border-color:var(--accent)}
 @media(prefers-reduced-motion:reduce){.project-featured-shot{transition:none}}
+
+/* Portfolio V3: highlighted PDF download in the hero and accessible contact links. */
+.actions .resume-button{border-color:rgba(139,189,255,.65);color:#bdd9ff}
+.actions .resume-button:hover,.contact-links a:hover{color:#fff;border-color:var(--accent)}
+.contact-links a{display:inline-flex;align-items:center;min-height:44px;border:1px solid var(--line);border-radius:7px;padding:8px 14px}
+@media(max-width:600px){.actions a{min-height:44px;display:inline-flex;align-items:center;justify-content:center}.contact-links{flex-wrap:wrap;gap:12px}}
