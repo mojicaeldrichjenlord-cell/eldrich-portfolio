@@ -7,3 +7,13 @@
 .gallery a span{display:block;padding:10px 11px}
 @media(max-width:500px){.gallery{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.gallery img{transition:none}}
+
+/* Portfolio V2: feature the real resort landing screenshot instead of a mockup. */
+.project-featured-shot{display:block;width:100%;max-width:560px;overflow:hidden;margin-top:28px;border:1px solid #ffffff45;border-radius:12px;background:#0b1624;box-shadow:0 16px 35px #0005;transition:transform .2s ease}
+.project-featured-shot:hover{transform:translateY(-3px)}
+.project-featured-shot img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;object-position:top}
+.image-caption{display:block;padding:10px 14px;color:#ecf3fd;font-size:12px;font-weight:700;background:#0c1929}
+.project-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+.project-links a{display:inline-flex;align-items:center;justify-content:center;border:1px solid #6087b855;border-radius:7px;padding:10px 14px;min-height:40px}
+.project-links a:first-child{background:var(--accent);color:#07111d;border-color:var(--accent)}
+@media(prefers-reduced-motion:reduce){.project-featured-shot{transition:none}}
