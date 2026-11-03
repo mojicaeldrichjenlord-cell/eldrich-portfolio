@@ -23,3 +23,35 @@
 .actions .resume-button:hover,.contact-links a:hover{color:#fff;border-color:var(--accent)}
 .contact-links a{display:inline-flex;align-items:center;min-height:44px;border:1px solid var(--line);border-radius:7px;padding:8px 14px}
 @media(max-width:600px){.actions a{min-height:44px;display:inline-flex;align-items:center;justify-content:center}.contact-links{flex-wrap:wrap;gap:12px}}
+
+/* Portfolio V4: responsive professional portrait, no broken image before upload. */
+.hero-with-photo{min-height:680px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(270px,345px);gap:clamp(24px,4vw,56px);width:100%;align-items:center}
+.hero-copy{min-width:0}
+.hero-with-photo h1{font-size:clamp(43px,5.4vw,76px);letter-spacing:-3.4px;line-height:1.06}
+.hero-with-photo .intro{max-width:560px}
+.hero-photo-card{width:100%;max-width:345px;margin:0;justify-self:end;padding:10px;background:linear-gradient(145deg,rgba(139,189,255,.11),rgba(15,27,42,.92));border:1px solid #4a66816b;border-radius:20px;box-shadow:0 28px 60px #0006}
+.hero-photo-frame{position:relative;overflow:hidden;aspect-ratio:4/5;border-radius:14px;background:radial-gradient(ellipse at 50% 20%,#264463 0%,#101c2c 70%);display:grid;place-items:center}
+.hero-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%;opacity:0;transition:opacity .25s ease;z-index:1}
+.hero-photo-card.has-photo .hero-photo{opacity:1}
+.hero-photo-placeholder{display:flex;flex-direction:column;align-items:center;gap:8px;color:#b7d5ff}
+.hero-photo-placeholder span{font-weight:800;font-size:clamp(54px,8vw,94px);letter-spacing:-5px}
+.hero-photo-placeholder small{font-size:10px;letter-spacing:2px;font-weight:700}
+.hero-photo-card.has-photo .hero-photo-placeholder{visibility:hidden}
+.hero-photo-card figcaption{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:14px 6px 5px;font-size:10px;letter-spacing:.9px;font-weight:750}
+.hero-photo-card figcaption small{color:var(--accent);font-size:9px;letter-spacing:.65px;text-align:right}
+@media(max-width:900px){
+  .hero-with-photo{min-height:0;padding-top:74px;padding-bottom:110px}
+  .hero-grid{grid-template-columns:minmax(0,1fr);gap:38px}
+  .hero-with-photo h1{font-size:clamp(45px,8vw,72px);letter-spacing:-2.8px}
+  .hero-photo-card{justify-self:start;width:min(100%,300px)}
+}
+@media(max-width:600px){
+  .hero-with-photo{padding-top:64px;padding-bottom:100px}
+  .hero-grid{gap:28px}
+  .hero-with-photo h1{font-size:clamp(42px,11vw,62px);letter-spacing:-2px}
+  .hero-photo-card{width:min(100%,260px);justify-self:center}
+  .hero-photo-card figcaption{flex-wrap:wrap;gap:4px}
+  .hero-photo-card figcaption small{text-align:left}
+}
+@media(prefers-reduced-motion:reduce){.hero-photo{transition:none}}

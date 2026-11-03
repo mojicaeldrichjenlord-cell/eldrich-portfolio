@@ -12,3 +12,12 @@ links?.querySelectorAll("a").forEach((link) =>
   }),
 );
 document.querySelector("#year").textContent = new Date().getFullYear();
+
+// Portfolio V4: keep the portrait placeholder until the actual file loads.
+const heroProfile = document.querySelector('#hero-profile-photo');
+const profileCard = heroProfile?.closest('.hero-photo-card');
+function revealProfileWhenReady() {
+  if (heroProfile?.naturalWidth > 0) profileCard?.classList.add('has-photo');
+}
+heroProfile?.addEventListener('load', revealProfileWhenReady);
+if (heroProfile?.complete) revealProfileWhenReady();
