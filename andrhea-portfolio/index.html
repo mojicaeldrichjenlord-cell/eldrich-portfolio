@@ -34,7 +34,7 @@
     <figure class="portrait">
       <div class="portrait-frame">
         <div class="asset-fallback portrait-fallback"><span>AA</span><small>Professional Portrait</small></div>
-        <img class="portrait-image asset-image" src="assets/andrhea-portrait.webp" alt="Professional portrait of Andrhea Genesis C. Arca" width="1100" height="1100">
+        <img class="portrait-image asset-image" src="assets/andrhea-portrait.jpg" alt="Professional portrait of Andrhea Genesis C. Arca" width="1100" height="1100">
       </div>
       <figcaption>THE PERSON BEHIND THE PASSION <strong>ANDRHEA C. ARCA</strong></figcaption>
     </figure>
@@ -82,21 +82,41 @@
   </div>
 </section>
 <section class="section work" id="portfolio">
-  <div class="container"><div class="section-head"><div><p class="number">05 / SELECTED WORK</p><h2>Created with <em>purpose.</em></h2></div><p>Academic projects exploring travel promotion and visual communication.</p></div>
-    <article class="work-card">
-      <div class="brochure-frame">
-        <div class="asset-fallback brochure-fallback"><span>SECRET<br>PARADISE</span><small>ACADEMIC TRAVEL BROCHURE</small></div>
-        <img class="asset-image brochure-img" src="assets/secret-paradise-brochure.webp" alt="Academic Secret Paradise travel brochure design and featured tourism destinations" width="1900" height="1468" loading="lazy">
-      </div>
-      <div class="work-info">
-        <p class="section-overline">FEATURED ACADEMIC PROJECT · TRAVEL MARKETING</p>
-        <h3>Secret Paradise</h3><h4>Travel & Tour Brochure Concept</h4>
-        <p>A student-produced travel brochure concept that presents destination options, travel information, and promotional material in an organized, visually engaging format.</p>
-        <div class="tags"><span>Tourism</span><span>Brochure Design</span><span>Travel Promotion</span></div>
-        <button id="open-brochure" type="button" class="brochure-btn">View Full Brochure ↗</button>
-        <p class="academic-note">Academic concept only — not a commercial travel booking service.</p>
-      </div>
-    </article>
+  <div class="container">
+    <div class="section-head">
+      <div><p class="number">05 / SELECTED WORK</p><h2>Created with <em>purpose.</em></h2></div>
+      <p>Two sides of an academic travel brochure demonstrating destination promotion, itinerary planning, and tourism communication.</p>
+    </div>
+    <div class="brochure-gallery">
+      <article class="work-card">
+        <div class="brochure-frame">
+          <div class="asset-fallback brochure-fallback"><span>DAVAO<br>TOUR PACKAGE</span><small>FRONT PANEL</small></div>
+          <img class="asset-image brochure-img" src="assets/brochure-davao-tour-package.jpg" alt="Davao Tour Package front brochure with package overview, inclusions and Secret Paradise branding" width="1407" height="1088" loading="lazy">
+        </div>
+        <div class="work-info">
+          <p class="section-overline">ACADEMIC BROCHURE · FRONT SIDE</p>
+          <h3>Davao Tour Package</h3><h4>Destination Promotion & Package Design</h4>
+          <p>The front side of an academic travel brochure concept, showcasing a proposed Davao tour package, destination highlights, travel inclusions and exclusions.</p>
+          <div class="tags"><span>Tourism Marketing</span><span>Destination Promotion</span><span>Travel Planning</span></div>
+          <button type="button" class="brochure-btn" data-brochure-index="0" disabled>View Full Brochure ↗</button>
+          <p class="academic-note">School project · Sample package and pricing, not a commercial offer.</p>
+        </div>
+      </article>
+      <article class="work-card">
+        <div class="brochure-frame">
+          <div class="asset-fallback brochure-fallback"><span>SECRET<br>PARADISE</span><small>BACK PANEL</small></div>
+          <img class="asset-image brochure-img" src="assets/secret-paradise-brochure.jpg" alt="Reverse side of the Secret Paradise travel brochure showing destinations, terms and travel details" width="1407" height="1088" loading="lazy">
+        </div>
+        <div class="work-info">
+          <p class="section-overline">ACADEMIC BROCHURE · BACK SIDE</p>
+          <h3>Secret Paradise</h3><h4>Travel Destinations & Information</h4>
+          <p>The reverse side presents sample itinerary destinations, visitor information and travel conditions, demonstrating clear communication and brochure organization.</p>
+          <div class="tags"><span>Travel Information</span><span>Visual Communication</span><span>Brochure Design</span></div>
+          <button type="button" class="brochure-btn" data-brochure-index="1" disabled>View Full Brochure ↗</button>
+          <p class="academic-note">Academic concept only · Contact details printed on the original artwork are illustrative.</p>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 <section class="aspire"><div class="container"><p class="number">06 / LOOKING AHEAD</p><h2>Ready to learn.<br><em>Inspired to serve.</em></h2><p>Seeking an on-the-job training opportunity in aviation, tourism, or hospitality where I can grow through meaningful, hands-on experience.</p><a class="btn primary" href="#contact">Connect With Me ↗</a></div></section>
@@ -105,5 +125,5 @@
 </div></section>
 </main>
 <footer><div class="container foot"><a href="#home">AA<span class="gold">.</span> ANDRHEA ARCA</a><span>© <span id="year">2026</span> Andrhea Genesis C. Arca · Academic Portfolio</span><a href="#home">BACK TO TOP ↑</a></div></footer>
-<dialog id="brochure-dialog" aria-label="Secret Paradise brochure preview"><div class="dialog-heading"><span>SECRET PARADISE · ACADEMIC TRAVEL BROCHURE</span><button id="close-brochure" type="button">✕ Close</button></div><img src="assets/secret-paradise-brochure.webp" alt="Full-size Secret Paradise brochure" width="1900" height="1468"></dialog>
+<dialog id="brochure-dialog" aria-label="Academic travel brochure preview"><div class="dialog-heading"><span id="brochure-dialog-title">ACADEMIC TRAVEL BROCHURE</span><button id="close-brochure" type="button">✕ Close</button></div><img id="full-brochure" alt="Full-size travel brochure preview" width="1407" height="1088"></dialog>
 </body></html>

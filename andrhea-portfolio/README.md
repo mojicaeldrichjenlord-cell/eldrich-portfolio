@@ -1,17 +1,18 @@
 # Andrhea Genesis C. Arca — Tourism & Hospitality Portfolio
 
-A standalone, mobile-friendly portfolio for on-the-job training applications.
+A responsive, independent student portfolio stored inside the existing GitHub repository.
 
-## Deployment
-This website lives in the `andrhea-portfolio` folder inside the owner's existing GitHub repository, but is configured as a **separate Vercel project** using `rootDirectory=andrhea-portfolio`. Eldrich's portfolio is not replaced or modified.
+## Vercel project
+Choose root directory `andrhea-portfolio` to deploy this site separately from Eldrich's root portfolio.
 
-## Required asset files
-- `assets/andrhea-portrait.webp` — Andrhea's formal portrait
-- `assets/secret-paradise-brochure.webp` — actual academic brochure
+## Assets (JPG)
+- `assets/andrhea-portrait.jpg` — formal portrait.
+- `assets/brochure-davao-tour-package.jpg` — front side of the academic travel brochure.
+- `assets/secret-paradise-brochure.jpg` — back side of the same academic travel brochure.
 
-The website provides visual fallbacks when assets are not yet present. Upload both files and Vercel will deploy them automatically.
+The gallery buttons automatically enable when the corresponding image loads. Missing images show a placeholder.
 
-## Notes
-The brochure is labeled an *academic concept*, not an actual travel agency. The public website omits residential street address and references' phone numbers. All experience and certificates are based on the provided résumé image.
+## Ethics and source descriptions
+The Davao travel package and Secret Paradise designs are **two sides of one academic brochure**, not proof of operating a commercial travel agency. The brochure's promotional prices/offerings are examples. Private street address and references' personal contact details are not reproduced in site text.
 
-Static HTML/CSS/JS only; no build tools or environment variables required.
+Pure HTML/CSS/JS, no build dependencies.

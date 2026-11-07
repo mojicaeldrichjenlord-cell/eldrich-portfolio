@@ -28,3 +28,15 @@ dialog{width:min(1200px,96vw);max-height:95vh;overflow:auto;padding:18px;backgro
 @media(max-width:800px){.nav{height:72px}.menu-toggle{display:flex;flex-direction:column;gap:5px;background:transparent;border:1px solid #ffffff55;padding:10px;cursor:pointer}.menu-toggle span{display:block;background:#fff;width:22px;height:2px}nav{display:none;position:absolute;top:72px;left:0;right:0;background:#111d2b;flex-direction:column;align-items:stretch;gap:19px;padding:28px;box-shadow:0 15px 28px #0006}nav.is-open{display:flex}nav a{font-size:14px}.nav-cta{text-align:center}.hero-grid{grid-template-columns:1fr;gap:50px;padding-top:64px}.portrait{max-width:350px}.hero h1{font-size:clamp(55px,9vw,77px)}.about-grid{grid-template-columns:1fr;gap:20px}.section-head{flex-direction:column;align-items:flex-start;gap:12px}.timeline article{grid-template-columns:140px 1fr 35px}.credentials{grid-template-columns:repeat(2,1fr)}.work-card,.contact-grid{grid-template-columns:1fr}.contact-grid{gap:30px}}
 @media(max-width:560px){html{scroll-padding-top:72px}.container{width:calc(100% - 36px)}.brand small{font-size:9px}.hero-grid{padding-top:60px;gap:35px}.hero h1{font-size:clamp(46px,11vw,62px);letter-spacing:-2px}.hero-desc{font-size:14px}.eyebrow{font-size:9px;letter-spacing:1.3px}.availability{font-size:9px}.portrait{max-width:290px}.hero-bottom{font-size:8px;letter-spacing:1.1px}.section{padding:72px 0}.section h2{font-size:clamp(37px,9vw,51px)}.signature small{display:block;margin:7px 0}.timeline article{grid-template-columns:1fr 32px;gap:9px;padding:19px 2px}.timeline .year{grid-column:1/-1}.timeline article>b{grid-column:2;grid-row:2/4}.timeline h3{font-size:23px}.skills-grid,.credentials{grid-template-columns:1fr}.skills-grid article{min-height:160px}.work-info{padding:27px}.brochure-frame{min-height:250px;padding:14px}.aspire h2{font-size:47px}.foot{flex-direction:column;align-items:flex-start}.dialog-heading{flex-direction:column;align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.asset-image{transition:none}}
+/* Portfolio V1.1: two brochure sides with separate, accessible full-size previews. */
+.brochure-gallery{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.brochure-gallery .work-card{display:flex;flex-direction:column;min-width:0}
+.brochure-gallery .brochure-frame{min-height:0;aspect-ratio:1.42;padding:14px;overflow:hidden}
+.brochure-gallery .brochure-img{width:100%;height:auto;max-height:100%;object-fit:contain}
+.brochure-gallery .work-info{padding:28px;flex:1}
+.brochure-gallery .work-info h3{font-size:clamp(30px,3.1vw,46px);line-height:1.1}
+.brochure-gallery .work-info h4{font-size:18px}
+.brochure-gallery .brochure-fallback{font-size:26px}
+.brochure-gallery .brochure-btn{margin-top:7px}
+@media(max-width:780px){.brochure-gallery{grid-template-columns:1fr}.brochure-gallery .work-card{max-width:680px}}
+@media(max-width:560px){.brochure-gallery .work-info{padding:22px}.brochure-gallery .brochure-frame{padding:10px}}
