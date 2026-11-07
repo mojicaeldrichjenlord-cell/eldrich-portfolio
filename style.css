@@ -55,3 +55,24 @@
   .hero-photo-card figcaption small{text-align:left}
 }
 @media(prefers-reduced-motion:reduce){.hero-photo{transition:none}}
+
+/* Portfolio V5: navigation stays visible while scrolling on desktop and mobile. */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:rgba(9,12,18,.94);
+  -webkit-backdrop-filter:blur(18px);
+  backdrop-filter:blur(18px);
+  border-bottom:1px solid rgba(139,189,255,.18);
+  box-shadow:0 8px 28px rgba(0,0,0,.18);
+}
+.site-header .nav{border-bottom:0}
+/* Ensure headings remain visible below the pinned navigation after clicking links. */
+.section{scroll-margin-top:112px}
+#home{scroll-margin-top:88px}
+@media(max-width:600px){
+  .section{scroll-margin-top:94px}
+  #home{scroll-margin-top:70px}
+  .site-header nav.open{box-shadow:0 14px 24px rgba(0,0,0,.3)}
+}
