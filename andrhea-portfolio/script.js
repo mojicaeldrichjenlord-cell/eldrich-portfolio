@@ -11,6 +11,18 @@ document.querySelectorAll('.asset-image').forEach(img=>{function done(){img.clas
   img.addEventListener('load',done);img.addEventListener('error',done);if(img.complete)done();
 });
 const modal=document.querySelector('#brochure-dialog');
-document.querySelector('#open-brochure')?.addEventListener('click',()=>{const img=document.querySelector('.brochure-img');if(img?.naturalWidth)modal.showModal();});
+const brochureButton=document.querySelector('#open-brochure');
+const brochureImg=document.querySelector('.brochure-img');
+function setBrochureButtonState(){
+  const ready=Boolean(brochureImg?.naturalWidth);
+  if (brochureButton) {
+    brochureButton.disabled=!ready;
+    brochureButton.title=ready?'View brochure in full size':'Brochure image will be available after upload';
+  }
+}
+brochureImg?.addEventListener('load',setBrochureButtonState);
+brochureImg?.addEventListener('error',setBrochureButtonState);
+setBrochureButtonState();
+brochureButton?.addEventListener('click',()=>{if(brochureImg?.naturalWidth && modal?.showModal)modal.showModal();});
 document.querySelector('#close-brochure')?.addEventListener('click',()=>modal.close());
 modal?.addEventListener('click',e=>{if(e.target===modal)modal.close();});
